@@ -1,0 +1,12 @@
+.popUp {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed rgb(12, 11, 11);
+  overflow: hidden;
+}
+
+.popUp button {
+  margin-left: 3rem;
+}

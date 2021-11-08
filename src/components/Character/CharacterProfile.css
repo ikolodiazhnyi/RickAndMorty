@@ -1,0 +1,27 @@
+.characterWrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.characterProfileWrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  display: block;
+}
+
+.infoName {
+  font-size: 2rem;
+}
+
+.infoEpisodes {
+  overflow-y: scroll;
+  height: 5rem;
+  border: 1px solid rgba(0, 0, 0, 0.459)
+  
+}

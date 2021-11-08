@@ -1,0 +1,56 @@
+.charactersWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.character {
+  display: flex;
+  width: 20vw;
+  height: 25vh;
+  border: 4px solid rgb(66, 52, 52);
+  margin-bottom: 1em;
+}
+
+.popUpWrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characterInfo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+}
+
+.characterInfo a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+}
+.characterInfo a .textWrapper {
+  text-decoration: none;
+  width: 100%;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.characterInfo a .textWrapper p {
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+
+}
